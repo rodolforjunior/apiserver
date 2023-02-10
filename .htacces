@@ -1,0 +1,5 @@
+<!-- Especificando configurações do servidor. -->
+RewriteEngine On
+RewriteRule . index.php 
+<!-- Essa linha de código faz com que qualquer URL que esteja buscando o caminho
+direcione para o 'index.php'. Obs: Regras somente válidas para Apache e outros servidores WEB -->
