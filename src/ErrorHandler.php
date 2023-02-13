@@ -1,6 +1,6 @@
 <?php
 
-class ErrorHandler //Classe que vai ser a "error handler" do código.
+class ErrorHandler //Classe que irá realizar o controle de erros no código.
 {
     public static function handleException(Throwable $exception): void //O argumento do tipo throwable vai representar a exception disparada (caso haja erro na request.)
     {
