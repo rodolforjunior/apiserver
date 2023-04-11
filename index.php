@@ -3,7 +3,7 @@ declare (strict_types=1);
 //Strict type "tipa" a linguagem e faz com que as variáveis
 //tenham valores específicos, por exemplo: int $x. Esse int precisa
 //obrigatoriamente de um valor tipo num e assim sucessivamente.
-//Isso se aplica somente ao current file, no caso index.php.
+//Isso se aplica somente ao arquivo atual, no caso index.php.
 //*********************************************************** */
 spl_autoload_register(function($class){
 //Ao invés de declarar manualmente as classes usando o require, 
